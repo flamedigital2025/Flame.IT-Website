@@ -957,7 +957,7 @@ button {
 .hero--full-bg .hero__content--left {
     position: relative;
     z-index: 2;
-    max-width: 680px;
+    max-width: 900px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -991,12 +991,22 @@ button {
 }
 
 .hero--full-bg .hero__title {
-    font-size: clamp(2.35rem, 4.4vw, 3.85rem);
+    font-size: clamp(2.15rem, 3.8vw, 3.45rem);
     font-weight: 900;
     color: #090E24 !important;
-    line-height: 1.12;
+    line-height: 1.15;
     letter-spacing: -0.03em;
     margin-bottom: 1.25rem;
+}
+
+.hero__title-top {
+    display: block;
+    white-space: nowrap;
+}
+
+.hero__title-solutions {
+    display: block;
+    color: #090E24;
 }
 
 .hero--full-bg .hero__title-highlight {
@@ -1005,6 +1015,62 @@ button {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+/* ===================== HERO TYPEWRITER ANIMATION ===================== */
+.hero-typewriter {
+    display: inline-flex;
+    align-items: baseline;
+    position: relative;
+    white-space: nowrap;
+    overflow: visible;
+}
+
+.hero-typewriter__word {
+    font-weight: 900;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.28em;
+    margin-bottom: -0.28em;
+    overflow: visible;
+}
+
+.hero-typewriter--marketing .hero-typewriter__word {
+    background: linear-gradient(135deg, #024BFD 0%, #2563EB 50%, #3B82F6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-typewriter--ai .hero-typewriter__word {
+    background: linear-gradient(135deg, #024BFD 0%, #00B4D8 50%, #06B6D4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-typewriter--crm .hero-typewriter__word {
+    background: linear-gradient(135deg, #024BFD 0%, #6366F1 50%, #8B5CF6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero-typewriter__cursor {
+    display: inline-block;
+    color: #024BFD;
+    font-weight: 300;
+    margin-left: 2px;
+    animation: typewriterBlink 0.85s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+    -webkit-text-fill-color: #024BFD;
+    user-select: none;
+    line-height: 1;
+}
+
+@keyframes typewriterBlink {
+    0%, 45% { opacity: 1; }
+    50%, 95% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .hero--full-bg .hero__subtitle {
@@ -1144,6 +1210,18 @@ button {
     }
     .hero--full-bg .hero__title {
         font-size: 2.35rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__title-top {
+        white-space: normal;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero--full-bg .hero__title {
+        font-size: 1.65rem;
     }
 }
 

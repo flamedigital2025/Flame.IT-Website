@@ -66,6 +66,57 @@ function AnimatedStat({ target, staticVal, prefix = '', suffix = '', accentSuffi
     );
 }
 
+function TypewriterWord({ words = ['Marketing', 'AI', 'CRM'], typingSpeed = 110, deletingSpeed = 65, pauseTime = 2200 }) {
+    const [wordIndex, setWordIndex] = useState(0);
+    const [subIndex, setSubIndex] = useState(words[0].length);
+    const [isDeleting, setIsDeleting] = useState(false);
+    const [isPaused, setIsPaused] = useState(true);
+
+    useEffect(() => {
+        if (isPaused) {
+            const timeout = setTimeout(() => {
+                setIsPaused(false);
+                setIsDeleting(true);
+            }, pauseTime);
+            return () => clearTimeout(timeout);
+        }
+
+        if (isDeleting) {
+            if (subIndex === 0) {
+                const timeout = setTimeout(() => {
+                    setIsDeleting(false);
+                    setWordIndex((prev) => (prev + 1) % words.length);
+                }, 350);
+                return () => clearTimeout(timeout);
+            }
+            const timeout = setTimeout(() => {
+                setSubIndex((prev) => prev - 1);
+            }, deletingSpeed);
+            return () => clearTimeout(timeout);
+        } else {
+            const currentWord = words[wordIndex];
+            if (subIndex === currentWord.length) {
+                setIsPaused(true);
+                return;
+            }
+            const timeout = setTimeout(() => {
+                setSubIndex((prev) => prev + 1);
+            }, typingSpeed);
+            return () => clearTimeout(timeout);
+        }
+    }, [subIndex, isDeleting, isPaused, wordIndex, words, typingSpeed, deletingSpeed, pauseTime]);
+
+    const currentWord = words[wordIndex];
+    const displayText = currentWord.substring(0, subIndex);
+
+    return (
+        <span className={`hero-typewriter hero-typewriter--${currentWord.toLowerCase()}`}>
+            <span className="hero-typewriter__word">{displayText}</span>
+            <span className="hero-typewriter__cursor" aria-hidden="true">|</span>
+        </span>
+    );
+}
+
 export default function Home() {
     const [openFaq, setOpenFaq] = useState(null);
 
@@ -157,8 +208,11 @@ export default function Home() {
                 <div className="container">
                     <div className="hero__content hero__content--left">
                         <h1 className="hero__title">
-                            Healthcare Marketing Solutions
-                            <span className="hero__title-highlight">for Australian Clinics &amp; Care Providers</span>
+                            <span className="hero__title-top">
+                                Healthcare <TypewriterWord words={['Marketing', 'AI', 'CRM']} />
+                            </span>
+                            <span className="hero__title-solutions">Solutions</span>
+                            <span className="hero__title-highlight">for Australian Clinics &amp; Care&nbsp;Providers</span>
                         </h1>
                         <p className="hero__subtitle">
                             IT solutions that fill diaries for Australian dental clinics, cosmetic clinics and aged care providers. AI booking, local search and CRM. Book a free audit.
