@@ -101,6 +101,42 @@ export default function Home() {
         {
             q: "How do I rank higher on Google Maps for \"dentist near me\"?",
             a: "Start with a fully built-out Google Business Profile, accurate details across directories, a steady flow of genuine reviews, and local pages for each suburb and service. We manage all of this as part of our Local SEO and Google Maps service."
+        },
+        {
+            q: "Do you work with dental clinics in Perth?",
+            a: "Yes. We work with dental clinics across Perth, from general practices to implant and orthodontic clinics. We also work with clinics in Adelaide, Melbourne, Sydney, Brisbane and other Australian cities."
+        },
+        {
+            q: "Can you help my clinic get more dental implant enquiries in Melbourne?",
+            a: "We can help more local patients find your clinic when they search for things like \"dental implants Melbourne\". That means a strong Google Business Profile, a clear implants page and compliant content. We don't promise a set number of patients, and we also do this for clinics in Perth, Adelaide and other cities."
+        },
+        {
+            q: "Do you offer dental SEO in Adelaide?",
+            a: "Yes. Our dental SEO covers Adelaide suburbs and the services each clinic offers, such as implants, Invisalign and general dentistry. We also run local SEO for clinics in Perth, Melbourne and other Australian cities."
+        },
+        {
+            q: "Can you market my cosmetic or aesthetics clinic in Sydney?",
+            a: "Yes. We work with cosmetology and aesthetics clinics in Sydney and also in Melbourne, Brisbane, Perth and Adelaide. All content follows AHPRA and TGA rules, including the limits on advertising prescription-only treatments."
+        },
+        {
+            q: "Do you help aged care and retirement living providers in Brisbane?",
+            a: "Yes. We help aged care and retirement living providers in Brisbane reach families who are searching for a home or village. We also work with providers in other Australian cities and regional areas."
+        },
+        {
+            q: "Will you work with my competitor down the road?",
+            a: "We limit how many clinics we take on in the same area. Our 5 km postcode exclusivity means we won't work with another clinic of the same type within 5 km of you."
+        },
+        {
+            q: "Do you work with multi-location dental groups?",
+            a: "Yes. We can build a separate local page and Google Business Profile for each location, so each clinic is found in its own suburb. This works for groups with sites in more than one city, for example Perth and Melbourne."
+        },
+        {
+            q: "How do I get my dental clinic to show up in ChatGPT for \"dentist in Perth\"?",
+            a: "AI tools pull from clear, trusted and consistent information about your clinic. We set up your clinic details, service pages, FAQs and reviews so AI tools can understand and name you. We can't guarantee a mention, but we can make your clinic easier to find and trust."
+        },
+        {
+            q: "What does a free practice audit include?",
+            a: "We review your website, Google Business Profile, local rankings, reviews and AHPRA compliance. You get a clear list of what to fix first."
         }
     ];
 

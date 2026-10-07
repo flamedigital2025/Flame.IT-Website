@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import {
     CheckIcon,
@@ -13,35 +13,6 @@ import {
 import SEO from '../components/SEO';
 
 export default function Packages() {
-    const [openFaq, setOpenFaq] = useState(null);
-
-    const toggleFaq = (index) => {
-        setOpenFaq(openFaq === index ? null : index);
-    };
-
-    const faqs = [
-        {
-            q: "Are there any long-term contracts or lock-in periods?",
-            a: "No. All Flame.IT packages operate strictly month-to-month with zero lock-in contracts. If your capacity is full or your priorities change, you can pause or cancel at any time with 30 days notice."
-        },
-        {
-            q: "Who owns our ad accounts, website assets, and content?",
-            a: "Your clinic owns 100% of everything from day one. You pay ad spend directly to Google and Meta, and all campaigns, creatives, landing pages, and AI configurations remain your intellectual property permanently."
-        },
-        {
-            q: "How does the strict 5 km postcode exclusivity work?",
-            a: "To ensure maximum impact and eliminate conflicts of interest, we only partner with one dental clinic, one cosmetic clinic, and one aged care provider per 5 km catchment radius. Your local direct competitors cannot hire us."
-        },
-        {
-            q: "How quickly can our campaigns and AI systems go live?",
-            a: "Following your initial diagnostic and onboarding kickoff, your profiles are rebuilt, compliance reviews completed, and campaigns live within 7 to 10 business days."
-        },
-        {
-            q: "Can we switch between Essential and Premium?",
-            a: "Yes. Many clinics start with Essential to establish foundational AI search and Google Maps dominance, then scale to Premium when they want done-for-you video production and omnichannel social media."
-        }
-    ];
-
     return (
         <div className="packages-page">
             <SEO
@@ -210,49 +181,6 @@ export default function Packages() {
                                 <ArrowRightIcon size={16} />
                             </Link>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* ===================== FAQ SECTION ===================== */}
-            <section className="faq packages-faq">
-                <div className="container">
-                    <div className="section-header">
-                        <span className="section-tag">COMMON QUESTIONS</span>
-                        <h2 className="section-title">Everything You Need to Know About Our Packages</h2>
-                        <p className="section-subtitle">
-                            Clear answers to the most common questions Australian practice directors ask before onboarding.
-                        </p>
-                    </div>
-                    <div className="faq__list">
-                        {faqs.map((faq, index) => (
-                            <div
-                                key={faq.q}
-                                className={`faq-item ${openFaq === index ? 'active' : ''}`}
-                            >
-                                <button
-                                    type="button"
-                                    className="faq-item__question"
-                                    onClick={() => toggleFaq(index)}
-                                    aria-expanded={openFaq === index}
-                                >
-                                    <span>{faq.q}</span>
-                                    <svg
-                                        className="faq-item__chevron"
-                                        width="20"
-                                        height="20"
-                                        viewBox="0 0 20 20"
-                                        fill="none"
-                                        aria-hidden="true"
-                                    >
-                                        <path d="M5 8l5 5 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                    </svg>
-                                </button>
-                                <div className="faq-item__answer">
-                                    <p>{faq.a}</p>
-                                </div>
-                            </div>
-                        ))}
                     </div>
                 </div>
             </section>
