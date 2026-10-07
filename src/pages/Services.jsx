@@ -265,10 +265,6 @@ export default function Services() {
                             <ul className="service-row__features">
                                 <li>
                                     <CheckIcon size={18} color="#3b82f6" />
-                                    <span>Connected with Dental4Windows, Cliniko, Halaxy, Core Practice, Leecare</span>
-                                </li>
-                                <li>
-                                    <CheckIcon size={18} color="#3b82f6" />
                                     <span>Automated recall sequences for routine hygiene, reviews, and care plan consults</span>
                                 </li>
                                 <li>

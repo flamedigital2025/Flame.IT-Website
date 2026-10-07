@@ -120,10 +120,6 @@ export default function Home() {
 
                 <div className="container">
                     <div className="hero__content hero__content--left">
-                        <div className="hero__badge">
-                            <span className="badge-dot"></span>
-                            <span>Healthcare IT Solutions Across Australia</span>
-                        </div>
                         <h1 className="hero__title">
                             Healthcare Marketing Solutions
                             <span className="hero__title-highlight">for Australian Clinics &amp; Care Providers</span>
@@ -136,10 +132,7 @@ export default function Home() {
                                 <span>Book a Free Audit</span>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </Link>
-                            <Link to="/services" className="btn btn--outline-light btn--lg">
-                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.5" /><polygon points="8,6 14,10 8,14" fill="currentColor" /></svg>
-                                <span>Explore 6 IT Solutions</span>
-                            </Link>
+
                         </div>
                     </div>
                 </div>
@@ -210,7 +203,7 @@ export default function Home() {
                             <div className="service-card__icon service-card__icon--blue">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#024BFD" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </div>
-                            <h3 className="service-card__title">Surgical Ad Funnels</h3>
+                            <h3 className="service-card__title">Campaign Management</h3>
                             <p className="service-card__desc">Precision-targeted Google Search &amp; Maps campaigns that capture high-intent patients seeking implants, aligners, and cosmetic procedures.</p>
                             <Link to="/services" className="service-card__link">Learn more →</Link>
                         </div>
@@ -219,8 +212,8 @@ export default function Home() {
                             <div className="service-card__icon service-card__icon--amber">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#D97706" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
                             </div>
-                            <h3 className="service-card__title">Dormant Patient Reactivation</h3>
-                            <p className="service-card__desc">Mine your existing patient database. Our automated multi-channel sequences revive overdue cleanings and unscheduled treatment plans.</p>
+                            <h3 className="service-card__title">Email Marketing</h3>
+                            <p className="service-card__desc">We create targeted outbound email campaigns that reach potential and existing patients, promote your services, nurture leads, and drive more appointments for your practice.</p>
                             <Link to="/services" className="service-card__link">Learn more →</Link>
                         </div>
                         <div className="service-card">

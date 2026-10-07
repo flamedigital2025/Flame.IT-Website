@@ -118,16 +118,6 @@ export default function Contact() {
                                         <p>Uncovers dormant patient reactivation rates and pinpoints enquiry leakage from missed after-hours phone calls and slow form follow-ups.</p>
                                     </div>
                                 </div>
-
-                                <div className="audit-feature-item">
-                                    <div className="audit-feature-item__icon">
-                                        <LockIcon size={22} color="#024BFD" />
-                                    </div>
-                                    <div className="audit-feature-item__body">
-                                        <h3>Zero–Obligation 5 km Postcode Reservation</h3>
-                                        <p>We hold your primary postcode for 14 calendar days post-audit, ensuring non-competing partner exclusivity in your immediate area.</p>
-                                    </div>
-                                </div>
                             </div>
 
                             {/* Direct Australian Channels */}
