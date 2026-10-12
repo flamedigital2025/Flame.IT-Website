@@ -259,7 +259,11 @@ export function generateStructuredData(path) {
                 'description': 'Australian IT solutions team specializing in patient acquisition and practice systems for Dental, Cosmetic & Aesthetics, and Aged Care & Retirement Living.',
                 'address': {
                     '@type': 'PostalAddress',
-                    'addressCountry': 'AU'
+                    'streetAddress': 'Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area',
+                    'addressLocality': 'Sahibzada Ajit Singh Nagar',
+                    'addressRegion': 'Punjab',
+                    'postalCode': '140306',
+                    'addressCountry': 'IN'
                 },
                 'contactPoint': [
                     {
@@ -307,7 +311,11 @@ export function generateStructuredData(path) {
                 'priceRange': 'AUD $2450 - $7850/mo',
                 'address': {
                     '@type': 'PostalAddress',
-                    'addressCountry': 'AU'
+                    'streetAddress': 'Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area',
+                    'addressLocality': 'Sahibzada Ajit Singh Nagar',
+                    'addressRegion': 'Punjab',
+                    'postalCode': '140306',
+                    'addressCountry': 'IN'
                 },
                 'areaServed': [
                     { '@type': 'City', 'name': 'Sydney' },

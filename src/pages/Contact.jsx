@@ -145,6 +145,17 @@ export default function Contact() {
                                         </div>
                                     </a>
                                 </div>
+                                <div className="audit-direct-address">
+                                    <div className="audit-direct-address__icon">
+                                        <MapPinIcon size={18} color="#024BFD" />
+                                    </div>
+                                    <div>
+                                        <div className="audit-direct-channel__label">OFFICE HEADQUARTERS</div>
+                                        <div className="audit-direct-address__val">
+                                            Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140306
+                                        </div>
+                                    </div>
+                                </div>
                                 <a href="https://wa.me/611300352634" target="_blank" rel="noopener noreferrer" className="audit-whatsapp-btn">
                                     <div className="audit-whatsapp-btn__icon">
                                         <WhatsAppIcon size={19} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { LogoIcon, MedalIcon, SparkleIcon, LockIcon, ShieldIcon, PhoneIcon, MailIcon, BoltIcon } from './Icons';
+import { LogoIcon, MedalIcon, SparkleIcon, LockIcon, ShieldIcon, PhoneIcon, MailIcon, BoltIcon, MapPinIcon } from './Icons';
 
 export default function Footer() {
     return (
@@ -44,6 +44,10 @@ export default function Footer() {
                         <div className="footer__col">
                             <h4>Contact &amp; Headquarters</h4>
                             <ul>
+                                <li className="footer__address-row">
+                                    <MapPinIcon size={15} color="#60a5fa" />
+                                    <span>Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area, Sahibzada Ajit Singh Nagar, Punjab 140306</span>
+                                </li>
                                 <li>
                                     <a href="mailto:enquiry.flamedigital@gmail.com">
                                         <MailIcon size={15} color="#60a5fa" />
