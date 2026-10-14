@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Allow existing physical files and directories to be accessed directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Route all other requests to index.html for React Router SPA
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Ensure correct MIME types for SVGs, fonts, and assets
+<IfModule mod_mime.c>
+  AddType image/svg+xml .svg .svgz
+  AddType image/x-icon .ico
+  AddType font/woff2 .woff2
+</IfModule>
