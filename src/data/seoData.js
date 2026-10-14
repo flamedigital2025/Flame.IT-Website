@@ -257,14 +257,6 @@ export function generateStructuredData(path) {
                 'url': BASE_URL,
                 'logo': `${BASE_URL}/images/flameit-logo.png`,
                 'description': 'Australian IT solutions team specializing in patient acquisition and practice systems for Dental, Cosmetic & Aesthetics, and Aged Care & Retirement Living.',
-                'address': {
-                    '@type': 'PostalAddress',
-                    'streetAddress': 'Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area',
-                    'addressLocality': 'Sahibzada Ajit Singh Nagar',
-                    'addressRegion': 'Punjab',
-                    'postalCode': '140306',
-                    'addressCountry': 'IN'
-                },
                 'contactPoint': [
                     {
                         '@type': 'ContactPoint',
@@ -309,14 +301,6 @@ export function generateStructuredData(path) {
                 'url': BASE_URL,
                 'telephone': '+61-1300-352-634',
                 'priceRange': 'AUD $2450 - $7850/mo',
-                'address': {
-                    '@type': 'PostalAddress',
-                    'streetAddress': 'Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area',
-                    'addressLocality': 'Sahibzada Ajit Singh Nagar',
-                    'addressRegion': 'Punjab',
-                    'postalCode': '140306',
-                    'addressCountry': 'IN'
-                },
                 'areaServed': [
                     { '@type': 'City', 'name': 'Sydney' },
                     { '@type': 'City', 'name': 'Melbourne' },

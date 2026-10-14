@@ -59,12 +59,7 @@ export default function Terms() {
 
                         <h2>7. Contact Us</h2>
                         <p>
-                            In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us via our <Link to="/contact">Contact Page</Link> or by mail at:
-                        </p>
-                        <p>
-                            <strong>FlameX</strong><br />
-                            Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area,<br />
-                            Sahibzada Ajit Singh Nagar, Punjab 140306
+                            In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us via our <Link to="/contact">Contact Page</Link> or by email at <a href="mailto:enquiry.flamedigital@gmail.com">enquiry.flamedigital@gmail.com</a>.
                         </p>
                     </div>
                 </div>
