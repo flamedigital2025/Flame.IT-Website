@@ -211,7 +211,7 @@ export default function LiveChatDemo() {
                 <div className="chat-header">
                     <div className="chat-avatar">AI</div>
                     <div>
-                        <div className="chat-name">Flame.IT Assistant</div>
+                        <div className="chat-name">FlameX Assistant</div>
                         <div className="chat-status">
                             <PulseDot /> Online
                         </div>

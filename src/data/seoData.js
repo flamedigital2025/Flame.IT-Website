@@ -15,7 +15,7 @@ export const seoData = {
             'cosmetic clinic patient enquiries',
             'aged care enquiry generation'
         ],
-        title: 'Healthcare Growth Solutions Australia | Flame.IT',
+        title: 'Healthcare Growth Solutions Australia | FlameX',
         description: 'IT solutions that fill diaries for Australian dental clinics, cosmetic clinics and aged care providers. AI booking, local search and CRM. Book a free audit.',
         h1: 'Healthcare Growth Solutions for Australian Clinics and Care Providers'
     },
@@ -30,7 +30,7 @@ export const seoData = {
             'clinic patient acquisition services',
             'AI and CRM for clinics'
         ],
-        title: 'IT Solutions for Clinics & Aged Care | Flame.IT',
+        title: 'IT Solutions for Clinics & Aged Care | FlameX',
         description: 'Six connected IT solutions for dental, cosmetic and aged care providers: audit, social, AI search, local SEO, AI receptionist and CRM. Built for Australia.',
         h1: 'Six Connected IT Solutions for Dental, Cosmetic and Aged Care Providers'
     },
@@ -45,7 +45,7 @@ export const seoData = {
             'Google Business Profile audit',
             'AI search visibility audit'
         ],
-        title: 'Free Digital Audit for Clinics & Care Homes | Flame.IT',
+        title: 'Free Digital Audit for Clinics & Care Homes | FlameX',
         description: 'Free audit of your website, Google Maps ranking, competitors and AI search visibility. See where enquiries leak. No obligation, delivered in 48 hours.',
         h1: 'Free Growth & Digital Audit for Your Clinic or Care Home'
     },
@@ -60,7 +60,7 @@ export const seoData = {
             'aged care social media marketing',
             'AHPRA compliant social media'
         ],
-        title: 'AHPRA-Compliant Social Media for Clinics | Flame.IT',
+        title: 'AHPRA-Compliant Social Media for Clinics | FlameX',
         description: 'Short-form video and social content for dental, cosmetic and aged care providers, reviewed against AHPRA and TGA rules. Build trust and earn more enquiries.',
         h1: 'AHPRA-Compliant Social Media for Clinics and Aged Care Providers'
     },
@@ -75,7 +75,7 @@ export const seoData = {
             'ChatGPT visibility for clinics',
             'Google AI Overviews for healthcare'
         ],
-        title: 'AEO & GEO: Get Recommended by AI Search | Flame.IT',
+        title: 'AEO & GEO: Get Recommended by AI Search | FlameX',
         description: 'When patients and families ask ChatGPT, Gemini or Perplexity for a local provider, be the answer. AEO and GEO for Australian clinics and aged care. Free check.',
         h1: 'AEO & GEO: Get Your Clinic Recommended by AI Search'
     },
@@ -90,7 +90,7 @@ export const seoData = {
             'dentist near me SEO',
             'aged care near me SEO'
         ],
-        title: 'Local SEO & Google Maps Ranking for Clinics | Flame.IT',
+        title: 'Local SEO & Google Maps Ranking for Clinics | FlameX',
         description: 'Rank higher in Google Maps and local search when Australians look for a dentist, cosmetic clinic or aged care home nearby. Reviews, listings and SEO in one.',
         h1: 'Local SEO and Google Maps Ranking for Clinics and Care Homes'
     },
@@ -105,7 +105,7 @@ export const seoData = {
             'AI phone answering for clinics',
             'missed call recovery for clinics'
         ],
-        title: 'AI Receptionist for Clinics Australia | Flame.IT',
+        title: 'AI Receptionist for Clinics Australia | FlameX',
         description: 'Answer every call 24/7. Our AI receptionist books into your diary, follows up missed calls and hands urgent matters to your team. Privacy Act aligned.',
         h1: '24/7 AI Receptionist for Australian Clinics and Care Homes'
     },
@@ -120,7 +120,7 @@ export const seoData = {
             'patient recall and reminders automation',
             'managed IT for clinics'
         ],
-        title: 'Healthcare CRM & IT Management Australia | Flame.IT',
+        title: 'Healthcare CRM & IT Management Australia | FlameX',
         description: 'One CRM, one dashboard, connected to your practice software. Automated reminders, recalls and lead follow-up for clinics and aged care. Secure, local support.',
         h1: 'Complete IT and CRM Management for Clinics and Aged Care Providers'
     },
@@ -135,8 +135,8 @@ export const seoData = {
             'aged care technology partner',
             'healthcare digital growth team'
         ],
-        title: 'About Flame.IT | Healthcare IT Solutions Australia',
-        description: 'Flame.IT is an Australian IT solutions team for dental, cosmetic and aged care providers. Meet the people, principles and privacy standards behind us.',
+        title: 'About FlameX | Healthcare IT Solutions Australia',
+        description: 'FlameX is an Australian IT solutions team for dental, cosmetic and aged care providers. Meet the people, principles and privacy standards behind us.',
         h1: "The IT Solutions Team Behind Australia's Growing Clinics and Care Homes"
     },
     '/pricing': {
@@ -150,7 +150,7 @@ export const seoData = {
             'AI receptionist cost Australia',
             'no lock-in contract clinic marketing'
         ],
-        title: 'Pricing: Clinic Growth Packages in AUD | Flame.IT',
+        title: 'Pricing: Clinic Growth Packages in AUD | FlameX',
         description: 'Clear monthly pricing in AUD for clinics and aged care providers. No lock-in contracts, you own your accounts and data. Compare packages and book a free audit.',
         h1: 'Clear Monthly Pricing for Clinics and Aged Care Providers'
     },
@@ -165,7 +165,7 @@ export const seoData = {
             'Google Business Profile tips for clinics',
             'AI receptionist for dentists guide'
         ],
-        title: 'Clinic Growth Guides & AHPRA Advertising Tips | Flame.IT',
+        title: 'Clinic Growth Guides & AHPRA Advertising Tips | FlameX',
         description: 'Guides for Australian dentists, cosmetic clinics and aged care providers: local SEO, AHPRA advertising rules, AI booking and CRM. Join our weekly brief.',
         h1: 'Practical Growth Guides for Australian Clinics and Aged Care Providers'
     },
@@ -180,7 +180,7 @@ export const seoData = {
             'free Google Maps ranking audit',
             'healthcare IT consultation'
         ],
-        title: 'Book a Free Clinic Audit | Flame.IT',
+        title: 'Book a Free Clinic Audit | FlameX',
         description: 'Book your free audit and strategy call. We review your Google Maps ranking, website, missed enquiries and AI search visibility for your clinic or care home.',
         h1: 'Book Your Free Clinic or Care Home Audit'
     },
@@ -195,7 +195,7 @@ export const seoData = {
             'AI receptionist for dental clinics',
             'local SEO for dental clinics'
         ],
-        title: 'Digital Solutions for Dental Clinics Australia | Flame.IT',
+        title: 'Digital Solutions for Dental Clinics Australia | FlameX',
         description: 'IT solutions built for Australian dental clinics: AI booking, local SEO, social media and a connected CRM. Fill your chair time. Book a free audit.',
         h1: 'Digital Solutions Built for Australian Dental Clinics'
     },
@@ -210,7 +210,7 @@ export const seoData = {
             'cosmetic clinic local SEO',
             'AI receptionist for aesthetic clinics'
         ],
-        title: 'Digital Solutions for Cosmetic & Aesthetic Clinics | Flame.IT',
+        title: 'Digital Solutions for Cosmetic & Aesthetic Clinics | FlameX',
         description: 'AHPRA-compliant IT solutions for Australian cosmetic and aesthetic clinics: social media, local SEO, AI booking and CRM. Book a compliance-safe audit.',
         h1: 'Digital Solutions Built for Cosmetic and Aesthetic Clinics'
     },
@@ -225,7 +225,7 @@ export const seoData = {
             'aged care local SEO',
             'AI receptionist for aged care providers'
         ],
-        title: 'Digital Solutions for Aged Care & Retirement | Flame.IT',
+        title: 'Digital Solutions for Aged Care & Retirement | FlameX',
         description: 'IT solutions for Australian aged care and retirement living providers: family-first enquiries, local SEO, AI booking and CRM. Book a free audit today.',
         h1: 'Digital Solutions Built for Aged Care and Retirement Living Providers'
     }
@@ -253,7 +253,7 @@ export function generateStructuredData(path) {
             {
                 '@type': 'Organization',
                 '@id': `${BASE_URL}/#organization`,
-                'name': 'Flame.IT',
+                'name': 'FlameX',
                 'url': BASE_URL,
                 'logo': `${BASE_URL}/images/flameit-logo.png`,
                 'description': 'Australian IT solutions team specializing in patient acquisition and practice systems for Dental, Cosmetic & Aesthetics, and Aged Care & Retirement Living.',
@@ -283,7 +283,7 @@ export function generateStructuredData(path) {
                 '@type': 'WebSite',
                 '@id': `${BASE_URL}/#website`,
                 'url': BASE_URL,
-                'name': 'Flame.IT Healthcare Growth Solutions',
+                'name': 'FlameX Healthcare Growth Solutions',
                 'publisher': {
                     '@id': `${BASE_URL}/#organization`
                 },
@@ -304,7 +304,7 @@ export function generateStructuredData(path) {
             {
                 '@type': 'ProfessionalService',
                 '@id': `${BASE_URL}/#localbusiness`,
-                'name': 'Flame.IT Healthcare IT Solutions',
+                'name': 'FlameX Healthcare IT Solutions',
                 'image': `${BASE_URL}/images/hero-doctor.jpg`,
                 'url': BASE_URL,
                 'telephone': '+61-1300-352-634',

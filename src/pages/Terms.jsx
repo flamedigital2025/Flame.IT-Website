@@ -6,8 +6,8 @@ export default function Terms() {
     return (
         <div className="extra-page">
             <SEO 
-                title="Terms of Service | Flame.IT Healthcare Solutions"
-                description="Read the terms and conditions for using Flame.IT's digital marketing and AI receptionist services for Australian healthcare providers."
+                title="Terms of Service | FlameX Healthcare Solutions"
+                description="Read the terms and conditions for using FlameX's digital marketing and AI receptionist services for Australian healthcare providers."
                 canonical="/terms"
             />
             
@@ -23,7 +23,7 @@ export default function Terms() {
                     <div className="prose">
                         <h2>1. Agreement to Terms</h2>
                         <p>
-                            These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Flame.IT Healthcare IT Solutions Pty Ltd ("Flame.IT", "we", "us", or "our"), concerning your access to and use of the Flame.IT website and our related services.
+                            These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and FlameX Healthcare IT Solutions Pty Ltd ("FlameX", "we", "us", or "our"), concerning your access to and use of the FlameX website and our related services.
                         </p>
 
                         <h2>2. Intellectual Property Rights</h2>
@@ -62,7 +62,7 @@ export default function Terms() {
                             In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us via our <Link to="/contact">Contact Page</Link> or by mail at:
                         </p>
                         <p>
-                            <strong>Flame.IT</strong><br />
+                            <strong>FlameX</strong><br />
                             Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area,<br />
                             Sahibzada Ajit Singh Nagar, Punjab 140306
                         </p>

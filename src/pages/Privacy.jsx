@@ -6,8 +6,8 @@ export default function Privacy() {
     return (
         <div className="extra-page">
             <SEO 
-                title="Privacy Policy | Flame.IT Healthcare Solutions"
-                description="Our privacy policy details how Flame.IT securely handles clinic and patient data in alignment with Australian Privacy Principles."
+                title="Privacy Policy | FlameX Healthcare Solutions"
+                description="Our privacy policy details how FlameX securely handles clinic and patient data in alignment with Australian Privacy Principles."
                 canonical="/privacy"
             />
             
@@ -23,7 +23,7 @@ export default function Privacy() {
                     <div className="prose">
                         <h2>1. Introduction</h2>
                         <p>
-                            Flame.IT Healthcare IT Solutions Pty Ltd ("Flame.IT", "we", "us", or "our") is committed to protecting the privacy and security of your personal and clinic information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+                            FlameX Healthcare IT Solutions Pty Ltd ("FlameX", "we", "us", or "our") is committed to protecting the privacy and security of your personal and clinic information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
                         </p>
                         <p>
                             We adhere strictly to the Privacy Act 1988 (Cth) and the Australian Privacy Principles (APPs).
@@ -61,7 +61,7 @@ export default function Privacy() {
                             If you have questions or comments about this Privacy Policy, please contact our Privacy Officer via our <Link to="/contact">Contact Page</Link> or by mail at:
                         </p>
                         <p>
-                            <strong>Flame.IT</strong><br />
+                            <strong>FlameX</strong><br />
                             Plot No I-16, IT City Rd, Sector 83, JLPL Industrial Area,<br />
                             Sahibzada Ajit Singh Nagar, Punjab 140306
                         </p>

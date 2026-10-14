@@ -12,12 +12,10 @@ function MarqueeGroup() {
         <div className="top-marquee__content">
             {repetitions.map((_, groupIndex) => (
                 <React.Fragment key={groupIndex}>
-                    {items.map((label, itemIndex) => (
-                        <span key={`${groupIndex}-${itemIndex}`}>
-                            Get <strong>FREE</strong> {label}
-                            <span className="top-marquee__dot" aria-hidden="true">✦</span>
-                        </span>
-                    ))}
+                    <span>
+                        Get <strong>FREE</strong> Compliance Report
+                        <span className="top-marquee__dot" aria-hidden="true">✦</span>
+                    </span>
                 </React.Fragment>
             ))}
         </div>

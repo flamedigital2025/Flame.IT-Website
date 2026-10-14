@@ -52,7 +52,7 @@ export default function About() {
             {/* ===================== HERO ===================== */}
             <section className="page-hero">
                 <div className="page-hero__bg">
-                    <img src="/images/about-hero.jpg" alt="Flame.IT healthcare IT solutions directors and clinical practice partners" />
+                    <img src="/images/about-hero.jpg" alt="FlameX healthcare IT solutions directors and clinical practice partners" />
                     <div className="page-hero__overlay"></div>
                 </div>
                 <div className="container">
@@ -66,15 +66,12 @@ export default function About() {
                             <span className="page-hero__title-highlight">Australia's Growing Clinics &amp; Care Homes</span>
                         </h1>
                         <p className="page-hero__subtitle">
-                            Flame.IT is an Australian IT solutions team for dental, cosmetic and aged care providers. Meet the people, principles and privacy standards behind us.
+                            FlameX is an Australian IT solutions team for dental, cosmetic and aged care providers. Meet the people, principles and privacy standards behind us.
                         </p>
                         <div className="page-hero__ctas">
                             <Link to="/contact" className="btn btn--primary btn--lg">
                                 <span>Book Free Audit</span>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                            </Link>
-                            <Link to="/pricing" className="btn btn--white btn--lg">
-                                <span>Explore Pricing</span>
                             </Link>
                         </div>
                         <div className="page-hero__proof">
@@ -90,7 +87,7 @@ export default function About() {
                 <div className="container">
                     <div className="section-header">
                         <span className="section-tag">Our Foundational Standard</span>
-                        <h2 className="section-title">The Four Commitments<br />That Set Flame.IT Apart</h2>
+                        <h2 className="section-title">The Four Commitments<br />That Set FlameX Apart</h2>
                     </div>
 
                     <div className="pillars-editorial" ref={editorialRef}>

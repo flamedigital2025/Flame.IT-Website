@@ -9,8 +9,8 @@ export default function Footer() {
                 <div className="footer__top">
                     {/* Brand Column */}
                     <div className="footer__brand">
-                        <Link to="/" className="navbar__logo footer__logo" aria-label="Flame.IT Homepage">
-                            <img src="/images/logo.png" alt="Flame.IT" className="navbar__logo-img" />
+                        <Link to="/" className="navbar__logo footer__logo" aria-label="FlameX Homepage">
+                            <img src="/images/logo.png" alt="FlameX" className="navbar__logo-img" />
                         </Link>
                         <p className="footer__desc">
                             Australian IT solutions team specializing in patient acquisition and practice systems for Dental Clinics, Cosmetology &amp; Aesthetics, and Aged Care &amp; Retirement Living.
@@ -57,7 +57,7 @@ export default function Footer() {
                                 <li>
                                     <a href="tel:1300352634">
                                         <PhoneIcon size={15} color="#60a5fa" />
-                                        <span>1300 352 634 (1300 FLAME IT)</span>
+                                        <span>1300 352 634 (1300 FLAMEX)</span>
                                     </a>
                                 </li>
                                 <li>
@@ -73,7 +73,7 @@ export default function Footer() {
 
                 <div className="footer__bottom">
                     <p className="footer__copyright">
-                        &copy; 2026 Flame.IT. All rights reserved.
+                        &copy; 2026 FlameX. All rights reserved.
                     </p>
                     <div className="footer__bottom-links">
                         <Link to="/privacy">Privacy Policy</Link>

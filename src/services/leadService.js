@@ -1,5 +1,5 @@
 /**
- * Flame.IT - Lead & Form Submission Service
+ * FlameX - Lead & Form Submission Service
  * Direct integration with Google Apps Script Web App (Google Sheets)
  */
 
@@ -9,7 +9,7 @@ export const submitLeadToGoogleSheet = async (payload) => {
     // If no URL is configured yet in .env, simulate for local development
     if (!scriptUrl) {
         console.info(
-            'ℹ️ [Flame.IT] No VITE_GOOGLE_SCRIPT_URL found in .env. Form submission simulated locally.'
+            'ℹ️ [FlameX] No VITE_GOOGLE_SCRIPT_URL found in .env. Form submission simulated locally.'
         );
         await new Promise((resolve) => setTimeout(resolve, 800));
         return { success: true, simulated: true };

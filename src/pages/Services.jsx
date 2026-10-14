@@ -86,7 +86,7 @@ export default function Services() {
                             <div className="service-visual-wrapper">
                                 <img
                                     src="/images/service-audit.png"
-                                    alt="Flame.IT Growth & Digital Diagnostic Audit Dashboard for Australian healthcare practices"
+                                    alt="FlameX Growth & Digital Diagnostic Audit Dashboard for Australian healthcare practices"
                                     className="service-visual-img"
                                     loading="lazy"
                                 />

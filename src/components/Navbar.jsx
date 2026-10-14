@@ -42,8 +42,8 @@ export default function Navbar() {
             aria-label="Main Navigation"
         >
             <div className="navbar__inner">
-                <Link to="/" className="navbar__logo" aria-label="Flame.IT Homepage">
-                    <img src="/images/logo.png" alt="Flame.IT" className="navbar__logo-img" />
+                <Link to="/" className="navbar__logo" aria-label="FlameX Homepage">
+                    <img src="/images/logo.png" alt="FlameX" className="navbar__logo-img" />
                 </Link>
 
                 <ul className="navbar__links">

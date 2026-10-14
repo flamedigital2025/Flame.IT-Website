@@ -42,7 +42,7 @@ export default function SEO({ title, description, keywords, canonical, customH1 
         setMetaTag('property', 'og:description', activeDescription);
         setMetaTag('property', 'og:url', canonicalUrl);
         setMetaTag('property', 'og:type', 'website');
-        setMetaTag('property', 'og:site_name', 'Flame.IT');
+        setMetaTag('property', 'og:site_name', 'FlameX');
         setMetaTag('property', 'og:locale', 'en_AU');
         setMetaTag('property', 'og:image', `${BASE_URL}/images/hero-doctor.jpg`);
 

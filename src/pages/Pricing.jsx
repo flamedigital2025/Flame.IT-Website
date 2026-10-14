@@ -16,12 +16,12 @@ export default function Packages() {
     return (
         <div className="packages-page">
             <SEO
-                title="Packages | Flame.IT Healthcare Solutions"
+                title="Packages | FlameX Healthcare Solutions"
                 description="Transparent, compliant clinical growth packages for Australian dental, cosmetic and aged care providers. Essential and Premium tiers with zero lock-in contracts."
                 canonical="/pricing"
             />
 
-            {/* ===================== HERO (FLAME.IT UNIFIED THEME) ===================== */}
+            {/* ===================== HERO (FLAMEX UNIFIED THEME) ===================== */}
             <section className="page-hero">
                 <div className="page-hero__bg">
                     <img

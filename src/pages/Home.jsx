@@ -126,7 +126,7 @@ export default function Home() {
 
     const faqs = [
         {
-            q: "Who does Flame.IT work with?",
+            q: "Who does FlameX work with?",
             a: "We only work with three regulated sectors: dental clinics, cosmetology and aesthetics clinics, and aged care and retirement living providers. We don't take on other industries, so everything we build is made for how your sector works."
         },
         {
@@ -199,7 +199,7 @@ export default function Home() {
                 <div className="hero__bg-media" aria-hidden="true">
                     <img
                         src="/images/hero-bg.jpg"
-                        alt="Flame.IT healthcare technology clinic environment"
+                        alt="FlameX healthcare technology clinic environment"
                         className="hero__bg-img"
                     />
                     <div className="hero__bg-overlay"></div>
@@ -366,14 +366,14 @@ export default function Home() {
                     <div className="section-header">
                         <span className="section-tag">Testimonials</span>
                         <h2 className="section-title">Verified Reviews from Practicing Clinicians &amp; Care Directors</h2>
-                        <p className="section-subtitle">Don't just take our word for it. Here's what practicing clinicians and healthcare leaders have to say about working with Flame.IT.</p>
+                        <p className="section-subtitle">Don't just take our word for it. Here's what practicing clinicians and healthcare leaders have to say about working with FlameX.</p>
                     </div>
                     <div className="reviews__grid">
                         <div className="review-card">
                             <div className="review-card__stars">
                                 <StarRating count={5} size={16} />
                             </div>
-                            <p className="review-card__text">"Flame.IT completely transformed our practice. We went from struggling to fill chairs to having a 3-week waitlist. The ROI has been absolutely phenomenal."</p>
+                            <p className="review-card__text">"FlameX completely transformed our practice. We went from struggling to fill chairs to having a 3-week waitlist. The ROI has been absolutely phenomenal."</p>
                             <div className="review-card__author">
                                 <div className="review-card__avatar" style={{ background: 'linear-gradient(135deg, #024BFD, #3b82f6)' }}>DS</div>
                                 <div>
@@ -386,7 +386,7 @@ export default function Home() {
                             <div className="review-card__stars">
                                 <StarRating count={5} size={16} />
                             </div>
-                            <p className="review-card__text">"We've tried 4 different marketing agencies before Flame.IT. None of them came close. Within 90 days we added 47 new patients per month consistently."</p>
+                            <p className="review-card__text">"We've tried 4 different marketing agencies before FlameX. None of them came close. Within 90 days we added 47 new patients per month consistently."</p>
                             <div className="review-card__author">
                                 <div className="review-card__avatar" style={{ background: 'linear-gradient(135deg, #1e40af, #3b82f6)' }}>JR</div>
                                 <div>
@@ -458,7 +458,7 @@ export default function Home() {
                     <div className="cta__inner">
                         <div className="cta__bg-pattern"></div>
                         <h2 className="cta__title">Ready to Fill Your Appointment<br />Books and Dominate Your Local<br />Market?</h2>
-                        <p className="cta__subtitle">Join 500+ elite practices that trust Flame.IT to deliver a consistent stream of high-value patients. Book your free strategy call today.</p>
+                        <p className="cta__subtitle">Join 500+ elite practices that trust FlameX to deliver a consistent stream of high-value patients. Book your free strategy call today.</p>
                         <div className="cta__actions">
                             <Link to="/contact" className="btn btn--white btn--lg">
                                 <span>Book Your Free Strategy Call</span>
