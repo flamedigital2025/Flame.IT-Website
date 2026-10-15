@@ -291,7 +291,6 @@ export default function Contact() {
 
                                         <div className="audit-form__trust-row">
                                             <span><LockIcon size={14} color="#024BFD" style={{ marginRight: '4px', verticalAlign: '-2px' }} /> 100% Privacy Act &amp; AHPRA Aligned</span>
-                                            <span><ShieldIcon size={14} color="#024BFD" style={{ marginRight: '4px', verticalAlign: '-2px' }} /> Strict 5 km Postcode Exclusivity</span>
                                         </div>
                                     </form>
                                 )}
