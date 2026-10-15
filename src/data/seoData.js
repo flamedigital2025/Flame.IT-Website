@@ -261,6 +261,7 @@ export function generateStructuredData(path) {
                     {
                         '@type': 'ContactPoint',
                         'telephone': '+61-1300-352-634',
+                        'email': 'info@flamex.it',
                         'contactType': 'customer support',
                         'areaServed': 'AU',
                         'availableLanguage': 'English'

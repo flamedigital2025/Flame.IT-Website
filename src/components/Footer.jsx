@@ -45,9 +45,9 @@ export default function Footer() {
                             <h4>Contact &amp; Enquiries</h4>
                             <ul>
                                 <li>
-                                    <a href="mailto:enquiry.flamedigital@gmail.com">
+                                    <a href="mailto:info@flamex.it">
                                         <MailIcon size={15} color="#60a5fa" />
-                                        <span>enquiry.flamedigital@gmail.com</span>
+                                        <span>info@flamex.it</span>
                                     </a>
                                 </li>
                                 <li>

@@ -58,7 +58,7 @@ export default function Privacy() {
 
                         <h2>6. Contact Us</h2>
                         <p>
-                            If you have questions or comments about this Privacy Policy, please contact our Privacy Officer via our <Link to="/contact">Contact Page</Link> or by email at <a href="mailto:enquiry.flamedigital@gmail.com">enquiry.flamedigital@gmail.com</a>.
+                            If you have questions or comments about this Privacy Policy, please contact our Privacy Officer via our <Link to="/contact">Contact Page</Link> or by email at <a href="mailto:info@flamex.it">info@flamex.it</a>.
                         </p>
                     </div>
                 </div>

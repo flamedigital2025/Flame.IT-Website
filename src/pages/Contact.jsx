@@ -134,13 +134,13 @@ export default function Contact() {
                                             <div className="audit-direct-channel__sub">Toll-free Australian wide</div>
                                         </div>
                                     </a>
-                                    <a href="mailto:enquiry.flamedigital@gmail.com" className="audit-direct-channel">
+                                    <a href="mailto:info@flamex.it" className="audit-direct-channel">
                                         <div className="audit-direct-channel__icon">
                                             <MailIcon size={20} color="currentColor" />
                                         </div>
                                         <div>
                                             <div className="audit-direct-channel__label">DEDICATED EMAIL</div>
-                                            <div className="audit-direct-channel__val">enquiry.flamedigital@gmail.com</div>
+                                            <div className="audit-direct-channel__val">info@flamex.it</div>
                                             <div className="audit-direct-channel__sub">Direct audit team inbox</div>
                                         </div>
                                     </a>

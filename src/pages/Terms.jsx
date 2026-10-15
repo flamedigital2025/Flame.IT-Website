@@ -59,7 +59,7 @@ export default function Terms() {
 
                         <h2>7. Contact Us</h2>
                         <p>
-                            In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us via our <Link to="/contact">Contact Page</Link> or by email at <a href="mailto:enquiry.flamedigital@gmail.com">enquiry.flamedigital@gmail.com</a>.
+                            In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us via our <Link to="/contact">Contact Page</Link> or by email at <a href="mailto:info@flamex.it">info@flamex.it</a>.
                         </p>
                     </div>
                 </div>
