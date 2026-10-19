@@ -25,11 +25,11 @@ export default function App() {
                     <Route path="/services" element={<Services />} />
                     <Route path="/services/:serviceSlug" element={<Services />} />
                     <Route path="/about" element={<About />} />
-                    <Route path="/pricing" element={<Pricing />} />
+                    <Route path="/packages" element={<Pricing />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/privacy" element={<Privacy />} />
                     <Route path="/terms" element={<Terms />} />
-                    
+
                     {/* Sector Pillar Pages defined in SEO Plan */}
                     <Route path="/dental-clinics" element={<SectorLanding />} />
                     <Route path="/cosmetic-aesthetic-clinics" element={<SectorLanding />} />

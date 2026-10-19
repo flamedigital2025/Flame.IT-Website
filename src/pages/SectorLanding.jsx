@@ -131,8 +131,8 @@ export default function SectorLanding() {
                                 <span>Book Sector Audit</span>
                                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>
                             </Link>
-                            <Link to="/pricing" className="btn btn--white btn--lg">
-                                <span>View AUD Pricing</span>
+                            <Link to="/packages" className="btn btn--white btn--lg">
+                                <span>View Packages</span>
                             </Link>
                         </div>
                         <div className="page-hero__proof">

@@ -18,7 +18,7 @@ export default function Packages() {
             <SEO
                 title="Packages | FlameX Healthcare Solutions"
                 description="Transparent, compliant clinical growth packages for Australian dental, cosmetic and aged care providers. Essential and Premium tiers with zero lock-in contracts."
-                canonical="/pricing"
+                canonical="/packages"
             />
 
             {/* ===================== HERO (FLAMEX UNIFIED THEME) ===================== */}

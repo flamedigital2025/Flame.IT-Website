@@ -139,9 +139,9 @@ export const seoData = {
         description: 'FlameX is an Australian IT solutions team for dental, cosmetic and aged care providers. Meet the people, principles and privacy standards behind us.',
         h1: "The IT Solutions Team Behind Australia's Growing Clinics and Care Homes"
     },
-    '/pricing': {
-        page: 'Pricing',
-        url: '/pricing',
+    '/packages': {
+        page: 'Packages',
+        url: '/packages',
         primaryKeyword: 'dental marketing cost Australia',
         keywords: [
             'dental marketing cost Australia',
@@ -150,9 +150,9 @@ export const seoData = {
             'AI receptionist cost Australia',
             'no lock-in contract clinic marketing'
         ],
-        title: 'Pricing: Clinic Growth Packages in AUD | FlameX',
-        description: 'Clear monthly pricing in AUD for clinics and aged care providers. No lock-in contracts, you own your accounts and data. Compare packages and book a free audit.',
-        h1: 'Clear Monthly Pricing for Clinics and Aged Care Providers'
+        title: 'Packages: Clinic Growth Packages in AUD | FlameX',
+        description: 'Clear monthly packages in AUD for clinics and aged care providers. No lock-in contracts, you own your accounts and data. Compare packages and book a free audit.',
+        h1: 'Clear Monthly Packages for Clinics and Aged Care Providers'
     },
     '/blog': {
         page: 'Blog',
